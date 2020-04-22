@@ -5,6 +5,8 @@ The game can be generalized to an *m,n,k*-game since already supports dynamic sq
 
 `TicTacToeGameView` is a `UIView` subclass and use `GameplayKit` framework to implement artificial intelligence.
 
+![Screenshot](https://github.com/nihilenz/FreakyTicTacToe/blob/master/screenshot.png)
+
 ## Installation
 Manually add files from `TicTacToeGameView` directory into your project.
 
