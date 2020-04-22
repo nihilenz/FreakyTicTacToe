@@ -1,0 +1,18 @@
+//
+//  FreakyTicTacTowExample-Prefix.pch
+//  FreakyTicTacToe
+//
+//  Created by Enrico Angelini on 17/04/2020.
+//  Copyright © 2020 Spirales di Enrico Angelini. All rights reserved.
+//
+
+
+// Fonts
+#define RegularFont(s) [UIFont fontWithName:@"AvenirNext-Regular" size:s]
+#define RomanFont(s) [UIFont fontWithName:@"Avenir-Roman" size:s]
+#define MediumFont(s) [UIFont fontWithName:@"AvenirNext-Medium" size:s]
+#define DemiboldFont(s) [UIFont fontWithName:@"AvenirNext-DemiBold" size:s]
+#define LightFont(s) [UIFont fontWithName:@"Avenir-Light" size:s]
+
+#define GameFont(s) [UIFont fontWithName:@"AvenirNext-Regular" size:s]
+#define GameWideFont(s) [UIFont fontWithName:@"AvenirNext-Medium" size:s]

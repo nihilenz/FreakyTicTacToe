@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  FreakyTicTacToeExample
+
+  Created by Enrico Angelini on 22/04/2020.
+  Copyright © 2020 Spirales di Enrico Angelini. All rights reserved.
+*/
+
+"tictactoeGameTitleKey" = "Try to get %@ in a row\nand don't lose!";
+"tictactoeMarks" = "%d crosses";
+"tictactoeWon" = "Won";
+"tictactoeLost" = "Lost";
+"tictactoeDraw" = "Draw";
+"tictactoeTurnYou" = "Your turn";
