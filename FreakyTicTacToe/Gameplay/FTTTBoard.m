@@ -237,6 +237,7 @@
         }
         if (count == self.marks)
         {
+            self.winningLine = line;
             return YES;
         }
     }

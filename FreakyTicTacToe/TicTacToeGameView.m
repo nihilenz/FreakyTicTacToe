@@ -275,6 +275,8 @@
         self.turnLabel.text = message;
         // Stop activity indicator
         [self.activityIndicatorView stopAnimating];
+        // Draw winning line if it exists
+        [self drawWinningLine];
         
         // Call delegate
         if (self.delegate != nil)
@@ -359,6 +361,19 @@
 {
     [self.board applyGameModelUpdate:move];
     [self updateBoard];
+}
+
+
+- (void)drawWinningLine
+{
+    if (self.board.winningLine)
+    {
+        for (NSNumber *cell in self.board.winningLine)
+        {
+            FTTTControl *control = [self.cells objectAtIndex:[cell integerValue]];
+            control.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.3];
+        }
+    }
 }
 
 @end

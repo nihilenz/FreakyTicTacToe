@@ -15,6 +15,7 @@
 
 @property (nonatomic, strong) NSMutableArray<NSNumber *> *cells;
 @property (nonatomic, strong) FTTTPlayer *currentPlayer;
+@property (nonatomic, strong) NSArray *winningLine;
 
 - (instancetype)initWithSize:(NSInteger)size marks:(NSInteger)marks firstMark:(FTTTMark)firstMark;
 - (void)updateCell:(NSInteger)index;
